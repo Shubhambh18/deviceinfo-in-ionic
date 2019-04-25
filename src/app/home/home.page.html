@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Device Info
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="ion-padding">
+  This is a Testing Page for Device Info
+    
+
+
+    <p>{{deviceInfo | json}}</p>
+    <button ion-button (click)='getInfo()'> Submit </button>
+    
+
+  </div>
+</ion-content>
